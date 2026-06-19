@@ -3,7 +3,10 @@ CAN listening with ESP32-P4 TWAI interface build around example from ESP-IDF v5.
 adapted from ESP-IDF examples:
 ![alt text](image.png)
 
-It is not specific to the ESP32-P4, it is just the board I have. It has 3 TWAI interfaces ( i.e. CAN controllers). You will need to wire up a CAN tranceiver to the GPIO [I used a TJA1050](https://github.com/user-attachments/assets/578214f0-afd6-46fd-a47b-8659391bc85e)
+It is not specific to the ESP32-P4, it is just the board I have.  
+![](https://github.com/user-attachments/assets/9f3b0434-2461-4cd4-9707-e73659d4596e)
+It has 3 TWAI interfaces ( i.e. CAN controllers). You will need to wire up a CAN tranceiver to the GPIO ![I used a TJA1050](https://github.com/user-attachments/assets/578214f0-afd6-46fd-a47b-8659391bc85e)
+
 
 
 Also for my use case it is to retrieve CAN signal from a VW vehicle so the raw CAN is not directly accessible at the OBD port but at the CAN gateway J533
