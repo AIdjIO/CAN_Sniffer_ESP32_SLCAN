@@ -26,6 +26,10 @@ SavvyCAN allows to look at the raw data an reverse engineer the can data if a db
 
 To make use of SavvyCAN the program writes to serial usb the ASCII messsage format expected.
 
+https://github.com/user-attachments/assets/de3f9e23-d387-488e-9aa7-300923362d6c
+
 you can the open a connection to the ESP32 in SavvyCAN
 
 I used ESP-IDF extension in VSCode to configure, build, and flash.
+
+
