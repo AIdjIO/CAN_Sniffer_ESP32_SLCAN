@@ -5,11 +5,10 @@ adapted from ESP-IDF examples:
 
 It is not specific to the ESP32-P4, it is just the board I have.  
 ![](https://github.com/user-attachments/assets/9f3b0434-2461-4cd4-9707-e73659d4596e)
-It has 3 TWAI interfaces ( i.e. CAN controllers). You will need to wire up a CAN tranceiver to the GPIO ![I used a TJA1050](https://github.com/user-attachments/assets/578214f0-afd6-46fd-a47b-8659391bc85e)
+It has 3 TWAI interfaces ( i.e. CAN controllers). You will need to wire up a CAN tranceiver (TJA1050) to the GPIO  
+![I used a TJA1050](https://github.com/user-attachments/assets/578214f0-afd6-46fd-a47b-8659391bc85e)
 
-
-
-Also for my use case it is to retrieve CAN signal from a VW vehicle so the raw CAN is not directly accessible at the OBD port but at the CAN gateway J533
+Also for my use case it is to retrieve CAN signal from a VW vehicle so the raw CAN is not directly accessible at the OBD port but at the CAN gateway J533  
 ![CAN Gateway J533](image-1.png)
 
 you can tee into it with [a dedicated harness](https://www.aliexpress.com/item/1005002726179192.html) ![harness splitter](https://github.com/user-attachments/assets/7678bc17-812c-48c1-a198-5ce985f3a7cf)  
