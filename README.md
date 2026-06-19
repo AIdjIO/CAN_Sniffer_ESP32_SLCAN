@@ -8,7 +8,8 @@ It is not specific to the ESP32-P4, it is just the board I have. just an ESP32 w
 Also for my use case it is to retrieve CAN signal from a VW vehicle so the raw CAN is not directly accessible at the OBD port but at the CAN gateway J533
 ![CAN Gateway J533](image-1.png)
 
-you can tee into it with a dedicated harness or you can buy adapter from [Konik"harness"](https://konik.ai/shop/j533-harness-for-mqb) which provides a usb-c port.
+you can tee into it with (a dedicated harness)[https://www.aliexpress.com/item/1005002726179192.html] <img width="220" height="220" alt="image" src="https://github.com/user-attachments/assets/7678bc17-812c-48c1-a198-5ce985f3a7cf" />
+or you can buy adapter from [Konik"harness"](https://konik.ai/shop/j533-harness-for-mqb) which provides a usb-c port.
 ![konik all in one j533](image-2.png) 
 The can buses are routed to rx/tx pins of the USB-C port. This was the solution from Comma.ai.
 you the need a usb-c gen 2 cable and a usbc breakout board.
